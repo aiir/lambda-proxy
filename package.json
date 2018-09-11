@@ -1,0 +1,24 @@
+{
+  "name": "@aiir/lambda-proxy",
+  "version": "1.0.0",
+  "author": "Andy Buckingham <andy@aiir.com>",
+  "description": "Simulates AWS API Gateway with Lambda proxy integration locally for development",
+  "main": "./lib/lambda-proxy",
+  "bin": {
+    "lambda-proxy": "./bin/lambda-proxy.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:aiir/lambda-proxy.git"
+  },
+  "author": "Andy Buckingham <andy@aiir.com>",
+  "license": "MIT",
+  "dependencies": {
+    "docker-lambda": "^0.15.3"
+  },
+  "devDependencies": {
+    "eslint": "^5.5.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0"
+  }
+}

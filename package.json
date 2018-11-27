@@ -4,9 +4,6 @@
   "author": "Andy Buckingham <andy@aiir.com>",
   "description": "Simulates AWS API Gateway with Lambda proxy integration locally for development",
   "main": "./lib/lambda-proxy",
-  "bin": {
-    "lambda-proxy": "./bin/lambda-proxy.js"
-  },
   "repository": {
     "type": "git",
     "url": "git@github.com:aiir/lambda-proxy.git"

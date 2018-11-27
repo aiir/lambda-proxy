@@ -7,10 +7,8 @@ const defaultPort = 3000;
 
 const options = {
   handler: process.env.HANDLER,
-  runtime: process.env.RUNTIME,
   stage: process.env.STAGE,
   taskDir: process.env.TASK_DIR,
-  network: process.env.NETWORK,
 };
 const requestListener = proxy(options);
 
